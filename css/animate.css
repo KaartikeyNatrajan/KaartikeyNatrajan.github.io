@@ -564,9 +564,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.bounceInLeft {
-  -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
+@media only screen and (min-width: 600px) {
+  .bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+  }
 }
 
 @-webkit-keyframes bounceInRight {
@@ -621,9 +623,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.bounceInRight {
-  -webkit-animation-name: bounceInRight;
-  animation-name: bounceInRight;
+@media only screen and (min-width: 600px) {
+  .bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+  }
 }
 
 @-webkit-keyframes bounceInUp {
