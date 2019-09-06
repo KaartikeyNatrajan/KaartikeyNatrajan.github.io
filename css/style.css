@@ -188,6 +188,12 @@ nav.navbar.fixed-to-top{
 	font-size: 2em;
 }
 
+@media only screen and (max-width: 500px) {
+  .navbar-default .navbar-brand{
+    font-size: 1.5em;
+  }
+}
+
 /* ================================
 Home sections
 ================================= */
