@@ -200,7 +200,7 @@ Home sections
 
 .home-section {
 	width: 100%;
-	padding: 100px 0px 100px 0px;
+	padding: 60px 0px 60px 0px;
 }
 
 /* --- heading --- */
@@ -324,6 +324,10 @@ Intro
   font-weight: 700;
 }
 
+#intro h5 {
+  color: #fff;
+}
+
 #intro p {
   width: 70%;
   -webkit-animation-delay: 0.4s;
@@ -442,7 +446,7 @@ About
   color: #333;
   font-weight: 300;
   font-size: 24px;
-  text-align: left;
+  text-align: justify;
 }
 
 #about .content h3 {
@@ -451,12 +455,12 @@ About
   font-size: 18px;
   line-height: 26px;
   font-style: italic;
-  text-align: left;
+  text-align: justify;
 }
 
 #about .content p {
   line-height: 26px;
-  text-align: left;
+  text-align: justify;
 }
 
 #about .content p:last-child {
